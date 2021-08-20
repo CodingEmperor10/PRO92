@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NUMBER MANIA!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h4 id="Mathematician_1_Name"></h4> <span id="mathematician1_score"></span>
+<br>	
+<h4 id="Mathematician_2_Name"></h4> <span id="mathematician2_score"></span>	
+
+<div class="container">
+	<center>
+		<h2 style="color: cyan;"> Multiply The Number!!</h2>
+        <h3 id="player_question"></h3>
+        <h3 id="player_answer"></h3>  
+		<div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+		<label id="SEND_NUMBER">Send your Number: <b style="color: red">NUMBER1!</b></label>
+		<br>
+        <input type="text" id="number1" class="form-control" placeholder="NUMBER1">
+		<br>
+        <label id="SEND_NUMBER2">Send your Number: <b style="color: blue">NUMBER2!</b></label>
+		<br>
+        <input type="text" id="number2" class="form-control" placeholder="NUMBER2">
+
+		<button onclick="send()" class="btn btn-success" style="width: 30%">Send ME!</button> 
+	</center>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
